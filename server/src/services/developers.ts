@@ -41,7 +41,6 @@ export const developers = {
   create: async (body: Omit<Developer, "id" | "idade">) => {
     try {
       const repository = getRepository(Developer);
-      console.log(body);
       const data = await repository.save(repository.create(body));
       return data;
     } catch (error) {
