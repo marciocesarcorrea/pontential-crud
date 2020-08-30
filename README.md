@@ -1,3 +1,8 @@
+# Para executar execute o comando
+```
+docker-compose up --build
+```
+
 # pontential-crud
 Potencial para um crud
 
