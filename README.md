@@ -1,4 +1,4 @@
-# Para executar execute o comando
+# Para rodar o projeto execute o comando
 ```
 docker-compose up --build
 ```
